@@ -1,6 +1,8 @@
+
+
 import type { AppProps } from "next/app";
-import {ThemeProvider, createTheme} from "@mui/material/styles";
 import { CssBaseline } from "@mui/material";
+import {createTheme, ThemeProvider} from "@mui/material/styles";
 import{light} from "../scss/MaterialTheme";
 import { useState } from "react";
 
